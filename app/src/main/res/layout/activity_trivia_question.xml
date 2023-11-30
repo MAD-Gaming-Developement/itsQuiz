@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context=".TriviaQuestion">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="85dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_rawRes="@raw/quiz" />
+
+    <TextView
+        android:id="@+id/txtvaskQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Question"
+        android:textAlignment="gravity"
+        android:textColor="#80558C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="344dp"
+        android:layout_height="259dp"
+        android:layout_margin="50dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/radiusbutton"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvaskQuestion"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <RadioButton
+            android:id="@+id/questA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="#80558C"
+            android:text="Question A"
+            android:textColor="#F1EFEF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/questB"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="#80558C"
+            android:text="Question B"
+            android:textColor="#F1EFEF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/questC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="#80558C"
+            android:text="Question C"
+            android:textColor="#F1EFEF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/questD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="#80558C"
+            android:text="Question D"
+            android:textColor="#F1EFEF"
+            android:textSize="18sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/radiusbutton"
+        android:onClick="loadAnswer"
+        android:text="@string/confirm"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/radius_pickanswer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menubtton" />
+
+    <com.google.android.gms.ads.AdView
+
+        android:layout_width="411dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-7215161150020699/5472691675"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

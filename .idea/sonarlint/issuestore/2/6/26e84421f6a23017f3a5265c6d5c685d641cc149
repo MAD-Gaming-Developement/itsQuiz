@@ -1,0 +1,13 @@
+
+J
+java:S1604;"(Make this anonymous inner class a lambda(õßØµüÿÿÿÿ8…¯Æ‚¿1
+€
+java:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8›¯Æ‚¿1
+H
+java:S18746",Remove this use of "loop"; it is deprecated.(€ÒúM8‹ø‚¢Á1
+m
+java:S1874;"KRemove this use of "setOnNavigationItemSelectedListener"; it is deprecated.(õßØµüÿÿÿÿ8ª¯Æ‚¿1
+X
+java:S1068"6Remove this unused "NAVIGATION_SUBJECT" private field.(úÞÛ¿úÿÿÿÿ8¸¯Æ‚¿1
+X
+java:S1068"6Remove this unused "NAVIGATION_HISTORY" private field.(çˆÞÌûÿÿÿÿ8¸¯Æ‚¿1

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context=".SubjectApp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="198dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:lottie_rawRes="@raw/quiz" />
+
+    <TableLayout
+        android:layout_width="267dp"
+        android:layout_height="506dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/idWorldCapitals"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#37306B"
+            android:text="@string/idWorldCapitals"
+            android:textAlignment="center"
+            android:textColor="#FDF4F5"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idFamousInventors"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#66347F"
+            android:text="@string/idFamousInventors"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idMovieQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#9E4784"
+            android:text="@string/idMovieQuotes"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idHistoricalEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#D27685"
+            android:text="@string/idHistoricalEvents"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idScienceandNature"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#AD7BE9"
+            android:text="@string/idScienceandNature"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idLiteratureandBooks"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#FFB84C"
+            android:text="@string/idLiteratureandBooks"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idMusicGenres"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#3C79F5"
+            android:text="@string/idMusicGenres"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idSportsTrivia"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7000"
+            android:text="@string/idSportsTrivia"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idArtandArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#905E96"
+            android:text="@string/idArtandArtists"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idGeographyBee"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#4C0033"
+            android:text="@string/idGeographyBee"
+            android:textStyle="bold" />
+
+    </TableLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/radius_pickanswer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menubtton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Its a Quiz</string>
+
+    <string name="confirm">Comfirm</string>
+
+
+    <string name="idWorldCapitals">> World Capitals</string>
+    <string name="idFamousInventors">> Famous Inventors</string>
+    <string name="idMovieQuotes">> Movie Quotes</string>
+    <string name="idHistoricalEvents">> Historical Events</string>
+    <string name="idScienceandNature">> Science and Nature</string>
+    <string name="idLiteratureandBooks">> Literature and Books</string>
+    <string name="idMusicGenres">> Music Genres</string>
+    <string name="idSportsTrivia">> Sports Trivia</string>
+    <string name="idArtandArtists">> Art and Artists</string>
+    <string name="idGeographyBee">> Geography Bee</string>
+
+
+</resources>

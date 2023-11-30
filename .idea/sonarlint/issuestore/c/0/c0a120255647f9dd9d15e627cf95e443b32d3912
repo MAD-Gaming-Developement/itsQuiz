@@ -1,0 +1,9 @@
+
+E
+java:S1604"(Make this anonymous inner class a lambda(„ÑñŒ8ßõ²¶¿1
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”Ñ¹Úûÿÿÿÿ8àõ²¶¿1
+]	java:S125"<This block of commented-out lines of code should be removed.(õ¯ÜËÿÿÿÿÿ8 ôğ¡Á1
+I
+java:S1874",Remove this use of "loop"; it is deprecated.(Ú¯•ğ8ö²¶¿1
+L
+java:S1874"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ8’ö²¶¿1

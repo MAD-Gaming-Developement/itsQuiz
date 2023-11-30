@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "1007258496904",
+    "project_id": "translation-35ec1",
+    "storage_bucket": "translation-35ec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007258496904:android:17a3ce51baf9f6cd76543d",
+        "android_client_info": {
+          "package_name": "international.translation.english"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQIBss83ur2tb0J-vuhjGryxYi4bmOmnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007258496904:android:b296c26a79b2bc2376543d",
+        "android_client_info": {
+          "package_name": "intrnl.eng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQIBss83ur2tb0J-vuhjGryxYi4bmOmnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007258496904:android:ee0bdcd3eeff5b1a76543d",
+        "android_client_info": {
+          "package_name": "intrnl.languageamazon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQIBss83ur2tb0J-vuhjGryxYi4bmOmnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007258496904:android:904753f312be984076543d",
+        "android_client_info": {
+          "package_name": "intrnl.translation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQIBss83ur2tb0J-vuhjGryxYi4bmOmnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007258496904:android:0224a9740f1ce16976543d",
+        "android_client_info": {
+          "package_name": "subject.trivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQIBss83ur2tb0J-vuhjGryxYi4bmOmnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

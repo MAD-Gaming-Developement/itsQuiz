@@ -1,0 +1,28 @@
+
+J
+java:S1604<"(Make this anonymous inner class a lambda(õßØµüÿÿÿÿ8©éııÁ1
+€
+java:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8ÆéııÁ1
+v
+java:S1450"ZRemove the "changeterms" field and declare it as a local variable in the relevant methods.(â»›H8ÆéııÁ1
+ƒ
+java:S1450"aRemove the "textChangesPrivacy" field and declare it as a local variable in the relevant methods.(ŒáÕ¹ûÿÿÿÿ8ÇéııÁ1
+|
+java:S1450"ZRemove the "textCookies" field and declare it as a local variable in the relevant methods.(µØ ½ıÿÿÿÿ8ÇéııÁ1
+Š
+java:S1450"hRemove the "textInformationCollection" field and declare it as a local variable in the relevant methods.(´œÈÿıÿÿÿÿ8ÇéııÁ1
+
+java:S1450"_Remove the "textIntroduction" field and declare it as a local variable in the relevant methods.(‰ò®Æùÿÿÿÿ8ÇéııÁ1
+u
+java:S1450"XRemove the "textLinks" field and declare it as a local variable in the relevant methods.(†ˆ×ù8ÇéııÁ1
+‚
+java:S1450"`Remove the "textPrivacyPolicy" field and declare it as a local variable in the relevant methods.(Ò”Åøşÿÿÿÿ8ÇéııÁ1
+x
+java:S1450"[Remove the "textSecurity" field and declare it as a local variable in the relevant methods.(‘ëÄØ8ÈéııÁ1
+u
+java:S1450"XRemove the "textTerms" field and declare it as a local variable in the relevant methods.(ÄÅÒÕ8ÈéııÁ1
+m
+java:S1874<"KRemove this use of "setOnNavigationItemSelectedListener"; it is deprecated.(õßØµüÿÿÿÿ8ÑéııÁ1
+c
+java:S1126D"AReplace this if-then-else statement by a single return statement.(è¯¥šùÿÿÿÿ8İéııÁ1
+X	java:S125E"<This block of commented-out lines of code should be removed.(ª˜ÜÆ8İéııÁ1

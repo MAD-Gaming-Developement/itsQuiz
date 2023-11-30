@@ -1,0 +1,11 @@
+
+J
+java:S1604%"(Make this anonymous inner class a lambda(õßØµüÿÿÿÿ8šà©¿1
+E
+java:S1604Y"(Make this anonymous inner class a lambda(ë—ÀŞ8šà©¿1
+n	java:S116"SRename this field "TxtScore" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªµ²E8£šà©¿1
+u	java:S116"TRename this field "TxtStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¥˜©øÿÿÿÿ8¤šà©¿1
+€
+java:S1450"cRemove the "bottomNavigationView" field and declare it as a local variable in the relevant methods.(ê¥ÎÚ8¨šà©¿1
+m
+java:S1874%"KRemove this use of "setOnNavigationItemSelectedListener"; it is deprecated.(õßØµüÿÿÿÿ8²šà©¿1
